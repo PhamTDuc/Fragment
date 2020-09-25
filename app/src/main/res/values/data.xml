@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+        <item>Chess Piece - King</item>
+        <item>Chess Piece - Queen</item>
+        <item>Chess Piece - Bishop</item>
+        <item>Chess Piece - Knight</item>
+        <item>Chess Piece - Rook</item>
+        <item>Chess Piece - Pawn</item>
+    </string-array>   
+    <string-array>
+    	<item>The king is the most important piece of the set and must be protected. The aim of the game is to threaten the king of the opposing player. Chess is a game that has been played for over 5000 years and is based on the idea of a kingdom with different players of varying levels of importance. The most important person in a monarchy, even today, is the king. The game is based on this premise that a monarchy will be destroyed when a king is destroyed. The king in chess is a piece that can only move one step at a time, which makes him vulnerable. Strategy in chess must revolve around not only attacking your opponent’s king but also protecting your own king.</item>
+    	<item>The queen is the second most important piece on the chess board and is very valuable because the queen can move in several directions and ways. This makes the queen a useful piece that can be used for annihilating other players on the board. At the same time, if your queen is destroyed, then you lose this advantage in the game.</item>
+    	<item>The third most important piece on the chess board is no doubt the bishop. The bishop is in fact placed on either side of the king and queen on the chess board. The importance of the bishop harkens back to medieval Europe when the bishop was next in line for the throne after the king and queen.</item>
+    	<item>The knight is the next piece on the board. In olden times, knights were wealthy individuals. On the chess board the knights are placed on either side of the bishops, showing their place in terms of wealth and importance. You can only move a knight in an L-shape.</item>
+    	<item>The rook is the next piece which is found next to the knight. The rook is used to symbolize the walls of the castle. Sometimes the rook may be called the castle or tower. This piece can be moved both vertically and horizontally on the chess board.</item>
+    	<item>Pawns are the pieces that represent the peasants or serfs of the kingdom. These are the poorest people who had to buy land from the king. The pawns are found in the first row in front of all the other pieces on the chess board and are the first to be sacrificed during a game. They are considered far less important than the other pieces on the board. Again, the pieces represent the feudal system of medieval Europe. The position of pieces on the board, and even their size is significant and dates to medieval Europe.</item>
+    </string-array>
+</resources>
