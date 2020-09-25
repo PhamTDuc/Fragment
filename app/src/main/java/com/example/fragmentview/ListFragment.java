@@ -19,7 +19,11 @@ import java.util.ArrayList;
 
 public class ListFragment extends androidx.fragment.app.ListFragment {
 
-
+    ItemSelected host;
+    public interface ItemSelected
+    {
+        void onItemSelected(int index);
+    }
 
     public ListFragment() {
         // Required empty public constructor
@@ -36,15 +40,18 @@ public class ListFragment extends androidx.fragment.app.ListFragment {
         data.add("4. This is item four");
 
         setListAdapter(new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, data));
+        host.onItemSelected(0);
     }
 
     @Override
     public void onAttach(@NonNull Context context) {
         super.onAttach(context);
+        host = (ItemSelected)context;
     }
 
     @Override
     public void onListItemClick(@NonNull ListView l, @NonNull View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
+        host.onItemSelected(position);
     }
 }
