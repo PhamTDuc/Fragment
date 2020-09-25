@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     tools:context=".MainActivity"
-    android:id="@+id/layout_portrait"
+    android:id="@+id/layout_land"
     android:baselineAligned="false">
 
     <fragment

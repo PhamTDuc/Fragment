@@ -8,7 +8,7 @@
         <item>Chess Piece - Rook</item>
         <item>Chess Piece - Pawn</item>
     </string-array>   
-    <string-array>
+    <string-array name= "descriptions">
     	<item>The king is the most important piece of the set and must be protected. The aim of the game is to threaten the king of the opposing player. Chess is a game that has been played for over 5000 years and is based on the idea of a kingdom with different players of varying levels of importance. The most important person in a monarchy, even today, is the king. The game is based on this premise that a monarchy will be destroyed when a king is destroyed. The king in chess is a piece that can only move one step at a time, which makes him vulnerable. Strategy in chess must revolve around not only attacking your opponent’s king but also protecting your own king.</item>
     	<item>The queen is the second most important piece on the chess board and is very valuable because the queen can move in several directions and ways. This makes the queen a useful piece that can be used for annihilating other players on the board. At the same time, if your queen is destroyed, then you lose this advantage in the game.</item>
     	<item>The third most important piece on the chess board is no doubt the bishop. The bishop is in fact placed on either side of the king and queen on the chess board. The importance of the bishop harkens back to medieval Europe when the bishop was next in line for the throne after the king and queen.</item>

@@ -33,14 +33,12 @@ public class ListFragment extends androidx.fragment.app.ListFragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        ArrayList<String> data = new ArrayList<>();
-        data.add("1. This is item one");
-        data.add("2. This is item two");
-        data.add("3. This is item three");
-        data.add("4. This is item four");
-
-        setListAdapter(new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, data));
-        host.onItemSelected(0);
+        String[] data = getResources().getStringArray(R.array.items);
+        setListAdapter(new ArrayAdapter<String>(this.getActivity(), android.R.layout.simple_list_item_1, data));
+        if(this.getActivity().findViewById(R.id.layout_land)!=null)
+        {
+            host.onItemSelected(0);
+        }
     }
 
     @Override
